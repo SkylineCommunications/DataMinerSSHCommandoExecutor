@@ -1,15 +1,15 @@
 # DataMiner SSH Commando Executor
-This application package will install an automation script on DataMiner.
-With the script you'll be able to setup an SSH connection to a remote server and execute a single command.
+This application package will install an Automation script on DataMiner.
+With the script you'll be able to set up an SSH connection to a remote server and execute a single command.
 
 ## Parameters
-To run the automation script some parameters are needed:
+To run the Automation script, some parameters are needed:
 
-- host : hostname or ip of the server you want to execute the command on
-- port : ssh port that is configures (standard this is 22)
-- username : username that has SSH rights
-- password : password of the username
-- command : command you want to execute
+- **host**: The hostname or IP of the server you want to execute the command on.
+- **port**: The SSH port that is configured (default: 22).
+- **username**: A username that has SSH rights.
+- **password**: The password that corresponds with the username.
+- **command**: The command you want to execute.
 
 ## DLL Reference
-To run the automation script an existing opensource dll was used, SSHNET. The dll is embedded in the app package and automatically installed with the automation script.
+To run the Automation script, an existing open-source DLL was used, SSHNET. The DLL is embedded in the app package and automatically installed with the Automation script.
